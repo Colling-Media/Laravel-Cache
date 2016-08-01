@@ -1,5 +1,5 @@
 {
-    "name": "Colling-Media/Laravel-Cache",
+    "name": "collingmedia/laravel-cache",
     "description": "Caching of responses based on full URL except user.",
     "keywords": [
         "middleware",
