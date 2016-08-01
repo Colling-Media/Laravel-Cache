@@ -1,0 +1,34 @@
+{
+    "name": "Colling-Media/Laravel-Cache",
+    "description": "Caching of responses based on full URL except user.",
+    "keywords": [
+        "middleware",
+        "response cache",
+        "laravel"
+    ],
+    "homepage": "https://github.com/Colling-Media/Laravel-Cache",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Colling Media",
+            "email": "logan@collingmedia.com",
+            "homepage": "https://github.com/Colling-Media",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.9",
+        "illuminate/http": "^5.1",
+        "illuminate/support": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Colling-Media\\Laravel\\Http\\Middleware\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
